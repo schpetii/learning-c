@@ -1,0 +1,59 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+<    
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< s
+> [ERROR] No words to sort!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< u
+> [ERROR] All words are already unique
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< a
+> 
+> Please enter the string that should be appended:
+?  > 
+< a
+> 
+> Current text:
+>    a
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< q
+> 
+> Current text:
+>    a

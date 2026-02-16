@@ -1,0 +1,118 @@
+[project_definition]
+binary_path = "./a3"
+makefile_path = "."
+make_targets = [ "all"]
+project_name = "a3"
+global_timeout = 20
+
+[[testcases]]
+name = "quit immediately"
+description = "User enters 'quit' immediately at the initial text prompt."
+type = "OrdIO"
+io_file = "./tests/01/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "text then quit"
+description = "User enters a text and then quits at the command menu."
+type = "OrdIO"
+io_file = "./tests/02/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "quit after command menu"
+description = "User enters text and chooses q, expecting current text output."
+type = "OrdIO"
+io_file = "./tests/03/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "append simple text"
+description = "Append regular text and quit."
+type = "OrdIO"
+io_file = "./tests/04/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "append whitespace only"
+description = "Append whitespace-only string successfully."
+type = "OrdIO"
+io_file = "./tests/05/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "search replace once"
+description = "Replace a single occurrence of a substring."
+type = "OrdIO"
+io_file = "./tests/06/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "search substring not found"
+description = "Trigger error when substring is missing."
+type = "OrdIO"
+io_file = "./tests/07/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "split and sort"
+description = "Split & sort text containing multiple spaces."
+type = "OrdIO"
+io_file = "./tests/08/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "unique"
+description = "Unique removes duplicates correctly."
+type = "OrdIO"
+io_file = "./tests/09/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "unique case insensitive"
+description = "Unique removes duplicates regardless of case."
+type = "OrdIO"
+io_file = "./tests/10/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "invalid command"
+description = "Invalid command triggers error."
+type = "OrdIO"
+io_file = "./tests/11/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "quit during append prompt"
+description = "User quits while entering append text."
+type = "OrdIO"
+io_file = "./tests/12/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "very long initial text"
+description = "Long input text with no further operations."
+type = "OrdIO"
+io_file = "./tests/13/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "full command pipeline"
+description = "Append, search/replace, unique, split/sort, then quit."
+type = "OrdIO"
+io_file = "./tests/14/io.txt"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0

@@ -1,0 +1,33 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+<   Banana apple BANANA  Apple banana  
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< u
+> 
+> Current text:
+> Banana apple
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< q
+> 
+> Current text:
+> Banana apple

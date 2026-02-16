@@ -1,0 +1,84 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+< banana sugar apple sugar wasabi flour flour pear
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< a
+> 
+> Please enter the string that should be appended:
+?  > 
+<  juice water
+> 
+> Current text:
+> banana sugar apple sugar wasabi flour flour pear juice water
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< r
+> 
+> Please enter the substring to search for:
+?  > 
+< sugar
+> 
+> Please enter the new substring:
+?  > 
+< honey
+> 
+> Current text:
+> banana honey apple honey wasabi flour flour pear juice water
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< u
+> 
+> Current text:
+> banana honey apple wasabi flour pear juice water
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< s
+> 
+> Current text:
+> apple banana flour honey juice pear wasabi water
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< q
+> 
+> Current text:
+> apple banana flour honey juice pear wasabi water

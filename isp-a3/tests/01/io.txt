@@ -1,0 +1,7 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+< quit

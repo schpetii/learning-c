@@ -1,0 +1,41 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+< test test
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< r
+> 
+> Please enter the substring to search for:
+?  > 
+< e
+> 
+> Please enter the new substring:
+?  > 
+< ebe
+> 
+> Current text:
+> tebest tebest
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< q
+> 
+> Current text:
+> tebest tebest

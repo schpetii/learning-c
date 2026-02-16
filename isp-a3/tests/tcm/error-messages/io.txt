@@ -1,0 +1,119 @@
+> 
+> Welcome to the
+> Stringtango Text Editor!
+> 
+> Enter a text:
+?  > 
+< hello world
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< 
+> [ERROR] Command unknown!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< a
+> 
+> Please enter the string that should be appended:
+?  > 
+< 
+> [ERROR] String can't be empty!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< r
+> 
+> Please enter the substring to search for:
+?  > 
+< 
+> [ERROR] String can't be empty!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< r
+> 
+> Please enter the substring to search for:
+?  > 
+< helo
+> [ERROR] Substring not found!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< r
+> 
+> Please enter the substring to search for:
+?  > 
+< hello world
+> 
+> Please enter the new substring:
+?  > 
+< 
+> 
+> Current text:
+> 
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< s
+> [ERROR] No words to sort!
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< u
+> [ERROR] All words are already unique
+> 
+> Choose a command:
+>  a: append text
+>  r: search and replace
+>  s: split and sort
+>  u: unique
+>  q: quit
+> 
+?  > 
+< q
+> 
+> Current text:
+> 

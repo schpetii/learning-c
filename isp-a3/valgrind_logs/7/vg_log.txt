@@ -1,0 +1,15 @@
+==59212== Memcheck, a memory error detector
+==59212== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==59212== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==59212== Command: ./a3
+==59212== Parent PID: 59109
+==59212== 
+==59212== 
+==59212== HEAP SUMMARY:
+==59212==     in use at exit: 0 bytes in 0 blocks
+==59212==   total heap usage: 5 allocs, 5 frees, 4,128 bytes allocated
+==59212== 
+==59212== All heap blocks were freed -- no leaks are possible
+==59212== 
+==59212== For lists of detected and suppressed errors, rerun with: -s
+==59212== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
